@@ -1,16 +1,39 @@
-# palindrome_test
+# Mobile Developer Intern
 
-A new Flutter project.
+Flutter Project Palindrome Check and Consume Api
+
+Created by Abian Ayatullah Fikri
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Project ini merupakan project intern test untuk mobile developer, yang mana menerapkan 
+Consume Api untuk mengambil data get yang ada di api kemudian di tampilkan dalam bentuk list berupa
+firstname,lastname, email, dan avatar. 
 
-A few resources to get you started if this is your first Flutter project:
+Project ini memiliki 3 tampilan:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## First Screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 2 TextFieldForm(name,palindrome)
+- 2 Button(Check Palindrome, move to Second Screen and get data name from first screen)
+
+![First Screen](lib/assets/image/firstScreen.png)
+![First Screen Entry](lib/assets/image/firstScreenEntry.png)
+![Palindrome Check True](lib/assets/image/palindromeCheckTrue.png)
+![Palindrome Check False](lib/assets/image/palindromeCheckFalse.png)
+
+## Second Screen
+
+- Get Username from FirstScreen
+- If Selected User Name not null maka show and Change Welcome Username menjadi nama yang di ambil dari third Screen
+- Button Choose a User to move third screen
+
+![Second Screen](lib/assets/image/secondScreen.png)
+![Second Screen](lib/assets/image/secondScreen_chooseUser.png)
+
+
+## Third Screen
+
+- Consume Api Get and show using list
+
+![Third Screen](lib/assets/image/thirdScreen.png)
